@@ -3,7 +3,7 @@ package rpg_PI;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Ragnarok {
+public class RagnarokBackup {
 
 	public static void main(String[] args) {
 

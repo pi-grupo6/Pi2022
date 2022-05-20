@@ -1,3 +1,5 @@
+package rpg_PI;
+
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -5,7 +7,7 @@ import java.io.IOException;
 import java.util.Random;
 
 
-public class Main {
+public class Cap1 {
 	public static Scanner resp = new Scanner(System.in);
 	/*private static final String VERMELHO = "\u001B[31m";
 	private static final String VERDE = "\u001B[32m";
@@ -178,6 +180,7 @@ public static void main(String[] args)throws IOException {
 
 
 		
+
 
 
 

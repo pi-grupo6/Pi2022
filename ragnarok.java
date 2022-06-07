@@ -1,4 +1,5 @@
 package rpg_PI;
+
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.io.IOException;
@@ -89,8 +90,6 @@ public class ragnarok {
 
     //metodo do inicio do jogo
     public static void jogo() {
-
-
 		try {
 			cap1();
 		} catch (IOException e) {
@@ -131,8 +130,6 @@ public class ragnarok {
         System.out.println("Você Passou pelo Capítulo 5 com sucesso");
 
         cap6();
-
-
     }
 
     public static void cap1() throws IOException {
@@ -142,9 +139,7 @@ public class ragnarok {
                 + "                 CAPÍTULO 1: CONVOCAÇÃO\n"
                 + "-----------------------------------------------------");
 
-        System.out.println("PARA COMEÇARMOS DIGA SEU NOME DEUS: ");
-        String nomeJogador = comando.next();
-
+        inserirNomeDoJogador();
 
         System.out.println("  Alguns dias você recebeu uma mensagem de Odin,convocando-o\n"
                 + "até seu salão em Asgard. Seu pai fora um deus\n"
@@ -243,7 +238,16 @@ public class ragnarok {
         limparTela();
     }
 
+    public static void inserirNomeDoJogador() {
+        System.out.println("PARA COMEÇARMOS DIGA SEU NOME DEUS: ");
+        do {
+            nomeJogador = comando.nextLine();
+        } while(nomeJogador.isEmpty());
+    }
+
     public static void limparTela() {
+        for(int i = 0; i < 80*300; i++)
+            System.out.print("\b");
         try {
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
         } catch (Exception ex) {
@@ -311,7 +315,7 @@ public class ragnarok {
         do {
 
             System.out.println("-----------------------------------------------------\n"
-                    + "               		  DESAFIO 3\n"
+                    + "               		  FENRIR - O GRANDE LOBO\n"
                     + "-----------------------------------------------------"
                     + "\nVocê ficou encarregado de alimentar as chamas da fornalha."
                     + "Os anões lhe entregaram um manual com informações sobre a temperatura ideal para a confecção das correntes:"

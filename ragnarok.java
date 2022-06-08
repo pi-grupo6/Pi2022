@@ -36,7 +36,7 @@ public class ragnarok {
                     System.out.println("\"-----------------------------------------------------\n"
                             + "                 INTRODUÇÃO\n"
                             + "-----------------------------------------------------");
-                    System.out.println("	Na Mitologia Nórdica o universo era um disco gigante, formado por nove mundos.\r\n"
+                    System.out.println("Na Mitologia Nórdica o universo era um disco gigante, formado por nove mundos.\r\n"
                             + "No centro do universo há Yggdrasil – uma árvore colossal que é o eixo do mundo – que liga os nove mundos da cosmologia nórdica. Suas raízes se encontram em Niflheim, o mundo do frio, da névoa e da neve. Mundo sombrio onde se localizavam árvores assombradas e um solo onde não se produzia nada, havia uma escuridão profunda e era habitado por gigantes e monstros.\r\n"
                             + "É possível viajar pelos mundos por meio da ponte arco-íris - Bifrost - guardada por Heimdall, o deus que tudo vê.\r\n"
                             + "No seu tronco estava Midgard, o mundo dos humanos, domínio da deusa Jörd e era cercado por oceanos.\r\n"
